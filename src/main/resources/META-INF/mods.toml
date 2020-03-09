@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory (26 is current forge version)
+issueTrackerURL="https://github.com/noobanidus/netherpunishment/issues" #optional
+[[mods]] #mandatory
+modId="netherpunishment" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="netherpunishment" #mandatory
+displayURL="https://www.curseforge.com/minecraft/mc-mods/waystones2waypoints" #optional
+authors="Noobanidus"
+description='''
+Adds waypoints whenever you find Waystones.
+'''
+[[dependencies.netherpunishment]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.netherpunishment]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
